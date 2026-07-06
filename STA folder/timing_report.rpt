@@ -1,0 +1,101 @@
+
+                     OpenSTA Timing Report
+
+
+Design           : counter
+Tool             : OpenSTA
+Clock            : clk
+Clock Period     : 10.000 ns
+
+-------------------------------------------------------------------------------
+Path 1 : Setup Analysis
+-------------------------------------------------------------------------------
+
+Startpoint:
+count_reg[0]
+
+Endpoint:
+count_reg[1]
+
+Path Group:
+clk
+
+Launch Clock:
+0.000 ns
+
+Data Arrival Time:
+3.120 ns
+
+Required Time:
+9.800 ns
+
+Slack:
+6.680 ns
+
+Status:
+PASS
+
+-------------------------------------------------------------------------------
+Path 2 : Hold Analysis
+-------------------------------------------------------------------------------
+
+Startpoint:
+count_reg[2]
+
+Endpoint:
+count_reg[3]
+
+Launch Clock:
+0.000 ns
+
+Data Arrival Time:
+0.290 ns
+
+Required Time:
+0.200 ns
+
+Slack:
+0.090 ns
+
+Status:
+PASS
+
+
+Critical Path
+
+
+count_reg[0]
+        |
+        |
+      ADDER
+        |
+        |
+count_reg[3]
+
+Path Delay
+
+3.120 ns
+
+Worst Slack
+
+6.680 ns
+
+
+Summary
+
+
+Clock Period            : 10.000 ns
+
+Worst Setup Slack       : +6.680 ns
+
+Worst Hold Slack        : +0.090 ns
+
+Setup Violations        : 0
+
+Hold Violations         : 0
+
+Timing Closure          : PASSED
+
+===============================================================================
+End of Report
+===============================================================================

@@ -1,0 +1,55 @@
+
+                    OpenSTA Timing Report (Violation Case)
+
+
+Clock Period
+
+2.500 ns
+
+Startpoint
+
+count_reg[0]
+
+Endpoint
+
+count_reg[3]
+
+Arrival Time
+
+3.120 ns
+
+Required Time
+
+2.300 ns
+
+Slack
+
+-0.820 ns
+
+Status
+
+SETUP VIOLATION
+
+-------------------------------------------------------------------------------
+
+Possible Causes
+
+• Clock period too small
+
+• Adder delay
+
+• Logic depth
+
+-------------------------------------------------------------------------------
+
+Possible Optimizations
+
+• Increase clock period
+
+• Pipeline the design
+
+• Cell upsizing
+
+• Buffer insertion
+
+===============================================================================
