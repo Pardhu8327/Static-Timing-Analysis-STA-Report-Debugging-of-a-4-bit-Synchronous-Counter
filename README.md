@@ -1,0 +1,1 @@
+# Static-Timing-Analysis-STA-Report-Debugging-of-a-4-bit-Synchronous-Counter
